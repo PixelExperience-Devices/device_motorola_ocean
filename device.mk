@@ -33,6 +33,9 @@ PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 # Audio
+PRODUCT_PACKAGES += \
+    libqcompostprocbundle
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_tfa987x.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tfa987x.xml \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
