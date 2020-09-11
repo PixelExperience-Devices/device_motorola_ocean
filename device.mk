@@ -24,9 +24,6 @@ $(call inherit-product-if-exists, vendor/motorola/ocean/ocean-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay 
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
