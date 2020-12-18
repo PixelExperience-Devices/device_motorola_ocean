@@ -30,7 +30,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ocean
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_NAME := aosp_ocean
-PRODUCT_MODEL := moto g(7) power
+PRODUCT_MODEL := moto g(6)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=ocean \
