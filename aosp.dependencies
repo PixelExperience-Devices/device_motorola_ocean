@@ -1,0 +1,13 @@
+[
+  {
+    "repository": "device_motorola_sdm632-common",
+    "target_path": "device/motorola/sdm632-common",
+    "branch": "eleven"
+  },
+  {
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_motorola_ocean",
+    "target_path": "vendor/motorola/ocean",
+    "branch": "eleven"
+  }
+]
