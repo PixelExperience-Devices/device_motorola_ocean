@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Inherit from motorola sdm632-common
+$(call inherit-product, device/motorola/sdm632-common/common.mk)
+
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/ocean/ocean-vendor.mk)
 
@@ -87,6 +90,3 @@ PRODUCT_COPY_FILES += \
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
-
-# Inherit from motorola sdm632-common
-$(call inherit-product, device/motorola/sdm632-common/common.mk)
