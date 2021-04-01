@@ -280,6 +280,9 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
 
+# Google Camera
+-system/priv-app/CameraGo/CameraGo.apk;PRESIGNED
+
 # FocalTech Touch Firmware
 vendor/firmware/FT8006U_Pramboot.bin
 
