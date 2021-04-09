@@ -18,7 +18,7 @@
 $(call inherit-product, device/motorola/sdm632-common/common.mk)
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/ocean/ocean-vendor.mk)
+$(call inherit-product, vendor/motorola/ocean/ocean-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
