@@ -34,4 +34,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2885681152    #  2818048 * 1024 mmcblk0p62-6
 BOARD_VENDORIMAGE_PARTITION_SIZE := 603979776     #   589824 * 1024 mmcblk0p60-61
 
 # inherit from the proprietary version
--include vendor/motorola/ocean/BoardConfigVendor.mk
+include vendor/motorola/ocean/BoardConfigVendor.mk
