@@ -21,7 +21,7 @@ $(call inherit-product, device/motorola/sdm632-common/common.mk)
 $(call inherit-product, vendor/motorola/ocean/ocean-vendor.mk)
 
 # Properties
--include $(LOCAL_PATH)/vendor_prop.mk
+-include $(LOCAL_PATH)/properties.mk
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
