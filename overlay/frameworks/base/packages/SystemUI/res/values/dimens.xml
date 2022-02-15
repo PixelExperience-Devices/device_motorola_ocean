@@ -16,8 +16,10 @@
 */
 -->
 <resources>
-    <dimen name="rounded_corner_radius">4dp</dimen>
-    <dimen name="rounded_corner_content_padding">14dp</dimen>
+    <dimen name="rounded_corner_content_padding">14dp</dimen>  
+
+    <!-- Margin on the right side of the system icon group on Keyguard. -->
+    <dimen name="system_icons_keyguard_padding_end">14dp</dimen>
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">14dp</dimen>

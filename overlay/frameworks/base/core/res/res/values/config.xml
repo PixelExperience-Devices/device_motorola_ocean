@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2013, The Android Open Source Project
+** Copyright 2018, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -34,8 +34,9 @@
         M -130,0 L -130,53 L 130,53 L 130,0 Z
     </string>
 
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">53.0px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dp</dimen>
+     <!-- Whether the display cutout region of the main built-in display should be forced to
+         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
+         -->
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 
 </resources>
