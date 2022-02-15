@@ -71,3 +71,20 @@ service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.st
     user nfc
     group nfc
     disabled
+
+# Google Fi
+on property:ro.carrier=fi
+    setprop ro.vendor.radio.ims_version TA3.0_IR92_V10.0
+    setprop persist.vendor.radio.user_agent_supported 1
+
+on property:ro.boot.hardware.sku=XT1962-1
+    setprop ro.radio.imei.sv 14
+
+on property:ro.boot.hardware.sku=XT1962-4
+    setprop ro.radio.imei.sv 13
+
+on property:ro.boot.hardware.sku=XT1962-5
+    setprop ro.radio.imei.sv 13
+
+on property:ro.boot.hardware.sku=XT1962-6
+    setprop ro.radio.imei.sv 13
